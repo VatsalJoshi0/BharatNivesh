@@ -102,7 +102,7 @@ export default function HomePage() {
         </h1>
         <p className="hero-subtitle">
           {mode === 'regular'
-            ? 'IPO अलर्ट, स्टॉक स्क्रीनर, SIP कैलकुलेटर और AI मार्केट विश्लेषण — सब एक जगह, बिल्कुल मुफ़्त।'
+            ? 'Simple IPO verdicts, easy stock screening, SIP planning, and plain-language AI market analysis — all in one place, 100% free.'
             : 'Real-time IPO scoring, quantitative stock screening, XIRR portfolio tracking, and local DistilBERT sentiment analysis — zero cost, zero compromise.'}
         </p>
         <div className="hero-cta-row">

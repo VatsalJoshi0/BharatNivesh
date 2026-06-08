@@ -58,7 +58,7 @@ export default function MarketAnalysisPage() {
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
           {mode === 'regular'
-            ? 'आज बाज़ार का मूड, सेक्टर ब्रेड्थ और वॉचलिस्ट नोट्स — एक नज़र में।'
+            ? "Get today's market mood, sector performance, and simplified watchlist notes in one view."
             : 'Sector breadth, trend signals, volatility metrics, and local AI sentiment analysis on live headlines.'}
         </p>
       </div>

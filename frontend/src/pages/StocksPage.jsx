@@ -114,7 +114,7 @@ export default function StocksPage() {
         </h1>
         <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>
           {mode === 'regular'
-            ? 'अपनी रणनीति चुनें और सर्वश्रेष्ठ स्टॉक खोजें।'
+            ? 'Choose an investment style and find top-rated stocks in simple words.'
             : 'Filter by strategy, sector, and fundamental metrics. Nerd Mode shows full quant breakdown.'}
         </p>
       </div>
