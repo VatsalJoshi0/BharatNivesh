@@ -1,12 +1,16 @@
 # BHARATNIVESH - AI-Powered Indian Investment Platform
 
-**Status**: Phase 0 (Foundation) - COMPLETE ✅
+> [!IMPORTANT]
+> **Prototype & Thought Process Disclaimer:**
+> BHARATNIVESH is currently a **functional prototype and conceptual thought process**. Some features use simulated feeds or mock local models to demonstrate user experiences. Certain advanced broker integrations and real-time CDSL demat syncs are structural layouts showcasing the planned product journey.
 
-BHARATNIVESH is a comprehensive AI-powered investment platform for Indian retail investors, HNIs, active traders, and institutions. The platform provides intelligent IPO analysis, stock screening, portfolio tracking, mutual fund recommendations, and smart alerts powered by machine learning.
+**Status**: Prototype & Core Functional Pages - COMPLETE ✅
+
+BHARATNIVESH is a comprehensive AI-powered investment platform for Indian retail investors, HNIs, active traders, and institutions. The platform provides a unique Dual-Mode Interface: a simplified, plain-language view for beginners (**Regular Mode**) and a quantitative analysis view for experienced traders (**Nerd Mode**). It features intelligent IPO analysis, stock screening, portfolio tracking, mutual fund recommendations, and a private, local AI sentiment model.
 
 ## 🎯 Vision
 
-Transform Indian investing with AI-driven insights. Dual-mode interface (Regular for beginners, Nerd for quants). Free, open-source, and fully localized in Hindi + English.
+Transform Indian investing with simplified, plain-language AI-driven insights. Dual-mode interface (Regular for beginners, Nerd for quants). Free, open-source, and fully localized.
 
 ## 📋 Phase 0: Foundation (COMPLETE)
 
