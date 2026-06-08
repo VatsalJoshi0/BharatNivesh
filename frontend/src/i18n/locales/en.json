@@ -1,0 +1,64 @@
+{
+  "app": {
+    "title": "BHARATNIVESH",
+    "description": "AI-Powered Indian Investment Platform",
+    "tagline": "Intelligent Investment, For Every Indian"
+  },
+  "nav": {
+    "home": "Home",
+    "ipos": "IPOs",
+    "stocks": "Stocks",
+    "portfolio": "Portfolio",
+    "mf": "Mutual Funds",
+    "alerts": "Alerts",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "name": "Full Name",
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?"
+  },
+  "portfolio": {
+    "title": "My Portfolio",
+    "totalValue": "Total Value",
+    "invested": "Invested",
+    "gains": "Gains / Losses",
+    "addHolding": "Add Holding",
+    "symbol": "Symbol",
+    "quantity": "Quantity",
+    "buyPrice": "Buy Price",
+    "currentPrice": "Current Price",
+    "xirr": "XIRR",
+    "remove": "Remove"
+  },
+  "ipo": {
+    "title": "IPO Analyzer",
+    "upcoming": "Upcoming IPOs",
+    "gmp": "GMP",
+    "subscription": "Subscription",
+    "priceRange": "Price Range",
+    "apply": "Apply IPO",
+    "verdict": "Verdict",
+    "redFlags": "Red Flags",
+    "analysis": "Detailed Analysis"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close"
+  }
+}
