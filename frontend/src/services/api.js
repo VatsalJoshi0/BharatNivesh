@@ -1,7 +1,10 @@
 import axios from 'axios';
 import { useAuthStore } from '../stores/authStore.js';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const configuredApiBase = import.meta.env.VITE_API_URL;
+const API_BASE = configuredApiBase && !/^https?:\/\/(localhost|127\.0\.0\.1)(:|\/|$)/.test(configuredApiBase)
+  ? configuredApiBase
+  : '/api';
 
 const apiClient = axios.create({
   baseURL: API_BASE,
@@ -165,4 +168,3 @@ export const mutualFundService = {
 };
 
 export default apiClient;
-
