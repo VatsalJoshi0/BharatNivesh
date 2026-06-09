@@ -6,7 +6,9 @@ let socket;
 
 export function useSocket() {
   useEffect(() => {
-    const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+    const API = import.meta.env.VITE_SOCKET_URL || import.meta.env.VITE_API_URL;
+    if (!API || /^https?:\/\/(localhost|127\.0\.0\.1)(:|\/|$)/.test(API)) return undefined;
+
     const base = API.replace(/\/api\/?$/, '');
     socket = io(base, { transports: ['websocket'], withCredentials: true });
 
